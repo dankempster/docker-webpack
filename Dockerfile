@@ -1,7 +1,5 @@
 FROM dankempster/node:latest
 
-USER root
-
 RUN npm install webpack -g;
 
 USER www-data
